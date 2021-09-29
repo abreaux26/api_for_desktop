@@ -7,6 +7,6 @@ class Api::V1::OverlapsController < ApplicationController
           overlap_error_message: "YOU CAN ACCESS THIS API"
         }
       ]
-    }, status: :not_found
+    }, status: :ok
   end
 end
